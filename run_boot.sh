@@ -1,8 +1,8 @@
 #!/bin/sh
 home_dir=../data/
 
-old_step=0
-step=1
+step=$1
+old_step=$2
 
 cd data
 dir_name=step${step}
