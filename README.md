@@ -52,3 +52,5 @@ Sample the most confusing unlabeled data for extra human annotation and build ne
 
     bash run_act.sh ${step} ${last_step}
 
+If you want to take the KnowPrompt as the backbone, just replace the `train.sh`, 
+`train_self.sh`, `pred.sh` and `get_query.sh` with the corresponding files in `KnowPrompt/scripts`.
